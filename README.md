@@ -5,7 +5,7 @@
 
 # M3U Playlist Viewer with Stream Playback
 
-This Python program allows you to view and play channels from an M3U playlist. It uses `tkinter` for the graphical user interface (GUI) and `ffmpeg` (specifically `ffplay`) to play video streams. The program loads an M3U playlist from a URL, displays the available channels in a table, and allows users to select and play a stream by double-clicking on a channel.
+This Python program (`tvplayer.py`) allows you to view and play channels from an M3U playlist. It uses `tkinter` for the graphical user interface (GUI) and `ffmpeg` (specifically `ffplay`) to play video streams. The program loads an M3U playlist from a URL, displays the available channels in a table, and allows users to select and play a stream by double-clicking on a channel.
 
 ## Prerequisites
 
@@ -15,7 +15,10 @@ Before running the script, ensure you have the following:
 2. **ffmpeg** installed on your system. 
    - The `ffplay` executable must be installed in the `C:\ffmpeg\` directory, and the relevant files should be extracted from the `bin` folder.
    
-   If `ffmpeg` is not installed, download it from [FFmpeg's official website](https://ffmpeg.org/download.html) and place the extracted files in the `C:\ffmpeg\bin` directory.
+   If `ffmpeg` is not installed, download it from [FFmpeg's official website](https://ffmpeg.org/download.html) and place the extracted files in the `C:\ffmpeg` directory.
+
+![image](https://github.com/user-attachments/assets/74dad063-c8b5-45ce-b1cc-62d49e0c5e68)
+
 
 ## Installation
 
@@ -40,7 +43,7 @@ Before running the script, ensure you have the following:
 1. Run the script by executing the following command:
 
    ```bash
-   python m3u_playlist_viewer.py
+   python tvplayer.py
    ```
 
 2. The GUI will open, displaying a table with the available channels from the M3U playlist. You can:
