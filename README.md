@@ -63,9 +63,6 @@ Before running the script, ensure you have the following:
 
 ## Troubleshooting
 
-- **ffplay not found:** If the script can't find `ffplay`, ensure that `ffmpeg` is installed in the `C:\ffmpeg\bin` directory and that the path to `ffplay.exe` is correct.
+- **ffplay not found:** If the script can't find `ffplay`, ensure that `ffmpeg` is installed in the `C:\ffmpeg` directory and that the path to `ffplay.exe` is correct.
 - **Connection errors:** If the playlist URL or the stream URL is unreachable, the program will show error messages (e.g., "Connection Error" or "Error 403: Access Forbidden").
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
